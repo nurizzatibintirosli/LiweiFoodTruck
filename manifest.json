@@ -1,12 +1,10 @@
 {
-  "name": "Offline BI Dashboard",
-  "short_name": "BI Dashboard",
-  "start_url": "index.html",
+  "name": "Liwei Food Truck",
+  "short_name": "LiweiFT",
+  "start_url": "./index.html",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0d6efd",
-  "orientation": "landscape",
-  "description": "A business dashboard that works offline.",
+  "theme_color": "#008CFF",
   "icons": [
     {
       "src": "icon-192.png",
