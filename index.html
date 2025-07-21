@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BI Dashboard - Home</title>
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="d-flex">
+
+  <!-- Sidebar -->
+  <aside class="bg-light border-end p-3" style="width: 250px; min-height: 100vh;">
+    <h4 class="fw-bold">BI Dashboard</h4>
+    <nav class="nav flex-column mt-4">
+      <a class="nav-link fw-bold active text-primary" href="index.html">Dashboard</a>
+      <a class="nav-link fw-bold" href="#">Item Analysis</a>
+      <a class="nav-link fw-bold" href="inventory.html">Inventory</a>
+    </nav>
+  </aside>
+
+  <!-- Main Content -->
+  <main class="flex-grow-1 p-4">
+    <h4 class="fw-bold mb-4">Welcome to Your BI Dashboard</h4>
+
+    <div class="row g-4">
+      <!-- Summary cards -->
+      <div class="col-md-4">
+        <div class="card border-success shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Total Products</h5>
+            <p class="card-text display-6 fw-bold text-success">25</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card border-info shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Ingredients Tracked</h5>
+            <p class="card-text display-6 fw-bold text-info">45</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card border-warning shadow-sm">
+          <div class="card-body">
+            <h5 class="card-title">Low Stock Alerts</h5>
+            <p class="card-text display-6 fw-bold text-warning">4</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Placeholder section for chart/graph -->
+    <div class="mt-5">
+      <h5 class="fw-bold">Visual Summary</h5>
+      <div class="border p-5 bg-light text-center text-muted rounded">
+        [ Chart/Graph will be shown here in future update ]
+      </div>
+    </div>
+  </main>
+
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+</html>
